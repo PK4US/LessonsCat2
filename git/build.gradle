@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.pk4us.git'
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "com.pk4us.git"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 

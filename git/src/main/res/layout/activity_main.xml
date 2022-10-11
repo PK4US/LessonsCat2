@@ -7,10 +7,14 @@
     android:background="@color/purple_200"
     tools:context=".MainActivity">
 
-    <com.google.android.material.textfield.TextInputEditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="GitFlow"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        android:fontFamily="serif-monospace"
+        android:text="Git Flow"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
