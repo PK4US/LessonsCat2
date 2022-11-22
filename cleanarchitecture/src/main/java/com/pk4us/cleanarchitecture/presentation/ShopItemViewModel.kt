@@ -9,6 +9,7 @@ import com.pk4us.cleanarchitecture.domain.EditShopItemUseCase
 import com.pk4us.cleanarchitecture.domain.GetShopItemUseCase
 import com.pk4us.cleanarchitecture.domain.ShopItem
 
+
 class ShopItemViewModel : ViewModel() {
 
     private val repository = ShopListRepositoryImpl
@@ -87,11 +88,11 @@ class ShopItemViewModel : ViewModel() {
         return result
     }
 
-    private fun resetErrorInputName() {
+    fun resetErrorInputName() {
         _errorInputName.value = false
     }
 
-    private fun resetErrorInputCount() {
+    fun resetErrorInputCount() {
         _errorInputCount.value = false
     }
 
