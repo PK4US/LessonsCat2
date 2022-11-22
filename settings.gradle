@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "LessonsCat2"
 include ':git'
 include ':cleanarchitecture'
+include ':composition'
